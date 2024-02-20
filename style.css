@@ -1,0 +1,565 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* ================= Formular START ====================== */
+.formular {
+    display: flex;
+    justify-content: center; 
+    
+}
+/* ================ Formular END ======================= */
+
+
+
+
+/* ================ Container START ======================= */
+.formular .container {
+    padding: 40px;
+    background-color:#f1f2f3 ;
+    width: 700px;
+    max-width: 100%;
+
+
+}
+/* =============== Container END ======================== */
+
+
+
+
+
+
+/* =============== Option START ======================== */
+.formular .container .option {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+.formular .container .option label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .option select {
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============ Option END =========================== */
+
+
+
+
+
+/* ============= Betreff START ========================== */
+.formular .container .betreff {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+.formular .container .betreff label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .betreff input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============== Betreff END ========================= */
+
+
+
+
+
+/* ============== Nachricht START ========================= */
+.formular .container .nachricht {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+.formular .container .nachricht label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .nachricht textarea {
+    width: calc( 100% - 10px);
+    height: 150px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============ Nachricht END =========================== */
+
+
+
+
+
+
+
+/* ============ Anrede START =========================== */
+.formular .container .anrede .title label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .anrede .radio {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.formular .container .anrede .radio .herr,.frau label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .anrede .radio .herr input {
+    border: 2px solid black;
+}
+/* ============= Anrede END ========================== */
+
+
+
+
+
+
+
+
+/* ============== Name START========================= */
+.formular .container .name {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+.formular .container .name label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .name input {
+    width: calc( 42% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============ Name END =========================== */
+
+
+
+
+
+
+/* ============== Vorname START ========================= */
+.formular .container .vorname {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+.formular .container .vorname label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .vorname input {
+    width: calc( 42% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============== Vorname END ========================= */
+
+
+
+
+
+/* ============== Pass START ========================= */
+.formular .container .pass {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 20px 0;
+}
+
+
+/* ============== LINKS START ========================= */
+.formular .container .pass .links label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .pass .links input {
+    width: calc( 90% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============== LINKS END ========================= */
+
+
+
+/* ============== RECHTS START ========================= */
+.formular .container .pass .rechts label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+
+.formular .container .pass .rechts input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* ============== RECHTS END ========================= */
+
+/* ============= Pass END ========================== */
+
+
+
+
+
+
+
+/* ============= E-Mali START ========================== */
+.formular .container .email {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+
+
+.formular .container .email  label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .email  input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =========== E-Mali END ============================ */
+
+
+
+
+
+
+
+
+
+
+
+/* ================ Adresse START ============================ */
+.formular .container .adresse {
+    width: 100%;
+}
+
+
+/* ================ OBEN START ============================ */
+.formular .container .adresse .oben {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+/* ================ OBEN END ============================ */
+
+
+/* ================ OBEN-LiNKS START ============================ */
+.formular .container .adresse .oben .links {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.formular .container .adresse .oben .links label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .adresse .oben .links input {
+    width: calc(95% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== OBEN-LINKS END ============================ */
+
+
+/* =================== OBEN-RECHTS START ============================ */
+.formular .container .adresse .oben .rechts {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.formular .container .adresse .oben .rechts label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .adresse .oben .rechts input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== OBEN-RECHTS END ============================ */
+
+
+/* =================== UNTEN SART ============================ */
+.formular .container .adresse .unten {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+/* =================== UNTEN END ============================ */
+
+
+/* =================== UNTEN-LINKS START ============================ */
+.formular .container .adresse .unten .links {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.formular .container .adresse .unten .links label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .adresse .unten .links input {
+    width: calc(90% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== UNTEN-LINKS END ============================ */
+
+
+/* =================== UNTEN-RECHTS START ============================ */
+.formular .container .adresse .unten .rechts {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.formular .container .adresse .unten .rechts label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .adresse .unten .rechts input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== UNTEN-RECHTS END ============================ */
+
+
+/* =================== Adresse END ================================ */
+
+
+
+
+
+
+
+
+/* ============= Kontakt START ========================== */
+.formular .container .kontakt {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 20px 0;
+    width: 100%;
+
+}
+
+
+/* =================== LINKS START ============================ */
+.formular .container .kontakt .links {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+.formular .container .kontakt .links label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+.formular .container .kontakt .links input {
+    width: calc( 90% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== LINKS END ============================ */
+
+
+/* =================== RECHTS START ============================ */
+.formular .container .kontakt .rechts {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+} 
+.formular .container .kontakt .rechts label {
+    color: #3d424a;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: .5px;
+}
+
+.formular .container .kontakt .rechts input {
+    width: calc( 100% - 10px);
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:  0.7s ease ;
+}
+/* =================== RECHTS END ============================ */
+
+
+/* ============= Kontakt END ========================== */
+
+
+
+
+
+
+
+
+
+
+/* ============= BTN START ========================== */
+.formular .container .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.formular .container .btn input {
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: #333;
+    color: white;
+    transition: .7s ease-in-out;
+}
+.formular .container .btn input:hover {
+    background-color: white;
+    color: #333;
+  
+    cursor: pointer;
+}
+/* ============ BTN END =========================== */
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,380 @@
+@media screen and (max-width:700px) {
+    .formular .container {
+        padding: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .formular .container .option {
+        padding: 0 0 10px 0;
+    }
+
+    .formular .container .option label {
+        line-height: 1.5;
+        letter-spacing: .2px;
+    }
+    .formular .container .option select {
+        height: 35px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    .formular .container .betreff {
+        padding: 0 0 10px 0;
+    }
+    
+    .formular .container .betreff label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+ 
+    
+    
+    .formular .container .nachricht {
+        padding: 0 0 10px 0;
+    }
+    .formular .container .nachricht label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    
+    .formular .container .anrede .title label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    .formular .container .anrede .radio {
+        padding: 10px 0;
+    }
+    .formular .container .anrede .radio .herr,.frau label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+
+    .formular .container .name {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 10px 0;
+    }
+    
+    .formular .container .name label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    .formular .container .name input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        font-size: 13px;
+    }
+    
+    
+
+    .formular .container .vorname {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 10px 0;
+    }
+    
+    .formular .container .vorname label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    .formular .container .vorname input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        font-size: 13px;
+    }
+    
+    .formular .container .pass {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 10px 0;
+    }
+    .formular .container .pass .links {
+        padding: 10px 0;
+    }
+    .formular .container .pass .links label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    .formular .container .pass .links input {
+        width: calc( 100% - 10px);
+        font-size: 13px;
+    }
+    .formular .container .pass .rechts label {
+        font-size: 13px;
+        line-height: 1.5;
+        letter-spacing: .3px;
+    }
+    
+    .formular .container .pass .rechts input {
+        width: calc( 100% - 10px);
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    
+    .formular .container .email {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+    }
+    
+    
+    
+    .formular .container .email  label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .email  input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    
+    
+    
+    
+    
+    .formular .container .adresse {
+        width: 100%;
+    }
+    
+    .formular .container .adresse .oben {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .formular .container .adresse .oben .links {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .formular .container .adresse .oben .links label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .adresse .oben .links input {
+        width: calc(95% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    
+    
+    
+    .formular .container .adresse .oben .rechts {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    
+    .formular .container .adresse .oben .rechts label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .adresse .oben .rechts input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .formular .container .adresse .unten {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .formular .container .adresse .unten .links {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .formular .container .adresse .unten .links label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .adresse .unten .links input {
+        width: calc(90% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    
+    
+    
+    .formular .container .adresse .unten .rechts {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .formular .container .adresse .unten .rechts label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .adresse .unten .rechts input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .formular .container .kontakt {
+        display: flex;
+        flex-direction: row;
+        padding: 0 0 20px 0;
+        width: 100%;
+    
+    }
+    .formular .container .kontakt .links {
+        display: flex;
+        flex-direction: column;
+    
+        width: 50%;
+    }
+    .formular .container .kontakt .links label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    .formular .container .kontakt .links input {
+        width: calc( 90% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    
+    .formular .container .kontakt .rechts {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    } 
+    .formular .container .kontakt .rechts label {
+        color: #3d424a;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: .5px;
+    }
+    
+    .formular .container .kontakt .rechts input {
+        width: calc( 100% - 10px);
+        height: 30px;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition:  0.7s ease ;
+    }
+    .formular .container .btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .formular .container .btn input {
+        width: 100px;
+        height: 40px;
+        border: 2px solid black;
+        background-color: #333;
+        color: white;
+        transition: .7s ease-in-out;
+    }
+    .formular .container .btn input:hover {
+        background-color: white;
+        color: #333;
+      
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
